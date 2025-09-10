@@ -7,7 +7,7 @@ import Stepform from "@/_component/Stepform";
 export default function Home() {
   return (
     <div>
-      <div className="mx-auto max-w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
+      <div className="main-img mx-auto max-w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
         <main>
           <div className="video-button">
             <div>
