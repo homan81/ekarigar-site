@@ -219,7 +219,7 @@ export default function Header() {
         aria-label="Global"
       >
         {/* Logo */}
-        <div className="flex ">
+        <div className="flex head-img">
           <Link href="#">
             <span className="sr-only">Your Company</span>
             <Image

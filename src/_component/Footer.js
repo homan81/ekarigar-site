@@ -304,7 +304,9 @@ const Footer = () => {
               placeholder="Email"
               className="w-full bg-white rounded-3xl px-4 pr-12 text-sm h-12 focus:outline-none"
             />
-            <button className="fto-btn absolute right-1 top-1 text-white bg-red-600 px-3 h-10 rounded-3xl flex items-center justify-center hover:bg-red-700 transition appearance-none leading-none">
+            <button className="fto-btn absolute right-1 top-1 text-white bg-red-600 px-3 h-10
+            rounded-3xl flex items-center justify-center hover:bg-red-700 transition
+             appearance-none leading-none">
               <ArrowRightIcon className="w-6 h-6" />
             </button>
           </div>

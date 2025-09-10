@@ -77,3 +77,11 @@
     }
   
 }
+
+@media (max-width: 640px) {
+
+    .head-img{
+        padding-left: 15px;
+    }
+
+}
