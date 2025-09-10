@@ -20,7 +20,7 @@ export default function ImageSlider() {
           1500: { slidesPerView: 4.5, spaceBetween: 230 }, // Desktops
         }}
         loop={true}
-        speed={10000}
+        speed={8000}
         autoplay={{
           delay: 0,
           disableOnInteraction: false,
@@ -145,7 +145,7 @@ export default function ImageSlider() {
           1500: { slidesPerView: 4.5, spaceBetween: 230 }, // Desktops
         }}
         loop={true}
-        speed={10000}
+        speed={8000}
         autoplay={{
           delay: 0,
           disableOnInteraction: false,
