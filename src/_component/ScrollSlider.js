@@ -219,7 +219,7 @@ export default function ScrollSlider() {
           }}
         >
           {/* Dark overlay */}
-          <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+          <div className="absolute inset-0  bg-opacity-50"></div>
 
           <div className="relative z-10 mx-auto max-w-7xl flex h-[70%]">
             <div className="grid lg:grid-cols-2 sm:grid-cols-2 gap-6">
