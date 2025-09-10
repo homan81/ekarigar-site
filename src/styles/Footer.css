@@ -1,0 +1,48 @@
+.footer-main {
+  background: #64666a;
+}
+
+.Our {
+  font-size: 16px;
+  color: #fff;
+}
+
+.Our:hover {
+  color: #a5a5a5;
+}
+
+.NetTM {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.fto-btn {
+  background-color: #cf2030;
+  height: -webkit-fill-available;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  width: 100px;
+  align-items: center;
+}
+
+.fto-btn:hover {
+  background-color: white;
+  border: 1px solid #cf2030;
+  color: red;
+}
+
+.Follow {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.allicon{
+  color: #C8C8C8;
+}
+
+.allicon:hover{
+  color: #000000;
+}

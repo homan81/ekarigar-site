@@ -1,0 +1,79 @@
+.main-header {
+    box-shadow: 0px 0px 12px 0px #cdcdcd;
+}
+
+.headerback {
+    background-color: #F2F2F2;
+}
+
+.headerback ul {
+    margin: 0;
+}
+
+.Experi {
+    text-decoration: none;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.email {
+    color: #cf2030;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.email-slider{
+    display: flex;
+    color: #cf2030;
+    font-weight: bold;
+    align-items: center;
+    font-size: 18px;
+    justify-content: center;
+}
+
+.email-icon{
+    color: #cf2030;
+}
+
+.GetInvited button {
+    background: linear-gradient(90deg, #CF2030 63.67%, #9A0D1A 100%);
+    padding: 7px 35px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid #cf2030;
+    color: #FFFFFF;
+}
+
+.nav-slide{
+    background: linear-gradient(90deg, #CF2030 63.67%, #9A0D1A 100%);
+    padding: 7px 35px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 2px solid #cf2030;
+    color: #FFFFFF;
+    width: 100%;
+}
+
+.custom-button {
+  cursor: pointer;
+}
+
+.GetInvited button:hover{
+    background: white;
+    color: #cf2030;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1100px) {
+  .GetInvited button {
+    padding: 7px 20px !important;
+    font-size: 13px;
+  }
+  .Experi {
+        font-size: 13px !important;
+    }
+  
+}
