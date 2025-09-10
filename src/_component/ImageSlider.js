@@ -12,7 +12,7 @@ export default function ImageSlider() {
       <Swiper
         modules={[Autoplay]}
         breakpoints={{
-          320: { slidesPerView: 1, spaceBetween: 20 }, // Mobile
+          320: { slidesPerView: 1, spaceBetween: 30 }, // Mobile
           640: { slidesPerView: 1.5, spaceBetween: 10 }, // Small tablets
           768: { slidesPerView: 2.5, spaceBetween: 250 }, // Tablets
           1024: { slidesPerView: 3.5, spaceBetween: 380 }, // Laptops
@@ -137,7 +137,7 @@ export default function ImageSlider() {
       <Swiper
         modules={[Autoplay]}
         breakpoints={{
-          320: { slidesPerView: 1, spaceBetween: 20 }, // Mobile
+          320: { slidesPerView: 1, spaceBetween: 30 }, // Mobile
           640: { slidesPerView: 1.5, spaceBetween: 10 }, // Small tablets
           768: { slidesPerView: 2.5, spaceBetween: 250 }, // Tablets
           1024: { slidesPerView: 3.5, spaceBetween: 380 }, // Laptops

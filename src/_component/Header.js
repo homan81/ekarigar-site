@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import "@/styles/Header.css";
-// import { MailIcon } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
 import { EnvelopeIcon } from '@heroicons/react/24/solid';

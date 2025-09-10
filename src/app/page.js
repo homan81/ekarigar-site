@@ -25,112 +25,6 @@ export default function Home() {
           </div>
         </main>
 
-        {/* <div className="mb-15">
-          <div className="grid lg:grid-cols-2 gap-2 mt-12">
-            <div className="">
-              <h2 className="bni font-bold leading-normal">
-                Join<span className="bni-colo">BNI®</span>,the world’s largest
-                and most successful
-                <span className="bni-colo">
-                  referral networking organization
-                </span>
-              </h2>
-            </div>
-            <div className="">
-              <p className="around">
-                Discover how BNI Members around the world meet each week locally
-                to pass millions of referrals to each other worth billions of
-                dollars in revenue for businesses just like yours.
-              </p>
-            </div>
-          </div>
-
-          <div className="grid lg:grid-cols-2 gap-7 pt-10">
-            <div className="image-bni">
-              <Image
-                src="/images/what-is-bni-yt.jpg"
-                alt="BNI Thumbnail"
-                className=" rounded-3xl"
-                width={588}
-                height={136}
-              />
-            </div>
-
-            <div className="main-box rounded-3xl overflow-hidden relative">
-              <div className="grid grid-cols-2">
-                <div className="box-height bg-white flex flex-col justify-center">
-                  <div className="text-center">
-                    <h3 className="Revenue text-[#CF2030] text-[40px] font-bold leading-none">
-                      340K+
-                    </h3>
-                    <p className="Members text-black text-[20px] font-normal leading-none text-center">
-                      Global Members
-                    </p>
-                  </div>
-                </div>
-                <div className="box-height Last flex flex-col justify-center">
-                  <div className="text-center">
-                    <h3 className="Revenue text-[#CF2030] text-[40px] font-bold leading-none">
-                      340K+
-                    </h3>
-                    <p className="Members text-black text-[20px] font-normal leading-none text-center">
-                      Global Members
-                    </p>
-                  </div>
-                </div>
-                <div className="box-height Last flex flex-col justify-center">
-                  <div className="text-center">
-                    <h3 className="Revenue text-[#CF2030] text-[40px] font-bold leading-none">
-                      340K+
-                    </h3>
-                    <p className="Members text-black text-[20px] font-normal leading-none text-center">
-                      Global Members
-                    </p>
-                  </div>
-                </div>
-                <div className="box-height bg-white flex flex-col justify-center">
-                  <div className="text-center">
-                    <h3 className="Revenue text-[#CF2030] text-[40px] font-bold leading-none">
-                      340K+
-                    </h3>
-                    <p className="Members text-black text-[20px] font-normal leading-none text-center">
-                      Global Members
-                    </p>
-                    <p className="Members text-black text-[20px] font-normal leading-none text-center">
-                      Last 12 Months*
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="bg-white text-center h-40 flex flex-col justify-center absolute 
-              rounded-3xl left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 shadow-lg center-card">
-                <h3 className="Revenue text-[#CF2030] text-[40px] font-bold leading-none">
-                  340K+
-                </h3>
-                <p className="Members text-black text-[20px] font-normal leading-none text-center">
-                  Global Members
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="grid grid-cols-6 lg:grid-cols-12 mt-12 sm:py-8 sm:px-10 rounded-2xl entremain">
-            <div className="col-span-6 lg:col-span-8 text-center lg:text-left">
-              <h2 className="business max-w-[700px]">
-                <span className="bni-colo "> See why 340K+ </span> entrepreneurs
-                like you chose BNI to grow their business
-              </h2>
-            </div>
-
-            <div className="col-span-6 lg:col-span-4 Chapter flex justify-center sm:justify-center items-center">
-              <button className="uppercase rounded-4xl cursor-pointer">
-                Find a Chapter
-              </button>
-            </div>
-          </div>
-        </div> */}
-
         <div className="mb-10 px-4 sm:px-6 lg:px-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-8">
             <div>
@@ -248,15 +142,9 @@ export default function Home() {
         <div className="mx-auto max-w-7xl w-full pt-20">
           <div className="hbhb">
             <div className="text-center">
-              {/* <h2 className="Success">3 Steps to Success</h2> */}
               <h2 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold not-italic">
                 3 Steps to Success
               </h2>
-
-              {/* <p className="mt-2 power">
-                Get invited to a BNI networking meeting and witness the power of
-                referrals in action.
-              </p> */}
 
               <p className="text-white text-base sm:text-lg md:text-xl lg:text-2xl font-normal not-italic m-0 mt-2">
                 Get invited to a BNI networking meeting and witness the power of
@@ -266,12 +154,6 @@ export default function Home() {
 
             <div className="grid grid-cols-12 mt-5">
               <div className="col-span-4 text-center flex flex-col items-center">
-                {/* <p className="cir-number">1</p>
-                <h2 className="Visit">Visit a BNI chapter</h2>
-                <p className="and">
-                  and experience the power of the BNI network
-                </p> */}
-
                 <p className="bg-white rounded-full w-16 h-16 flex items-center justify-center text-[32px] sm:text-[36px] md:text-[40px] lg:text-[42px] font-bold text-[#cf2030]">
                   1
                 </p>
@@ -286,11 +168,6 @@ export default function Home() {
               </div>
 
               <div className="col-span-4 text-center flex flex-col items-center">
-                {/* <p className="cir-number">2</p>
-                <h2 className="Visit">Meet the Members</h2>
-                <p className="and">
-                  and learn how they can help you grow your business
-                </p> */}
                 <p className="bg-white rounded-full w-16 h-16 flex items-center justify-center text-[32px] sm:text-[36px] md:text-[40px] lg:text-[42px] font-bold text-[#cf2030]">
                   2
                 </p>
@@ -305,9 +182,6 @@ export default function Home() {
               </div>
 
               <div className="col-span-4 text-center flex flex-col items-center">
-                {/* <p className="cir-number">3</p>
-                <h2 className="Visit">Apply</h2>
-                <p className="and">to become a Member of a BNI Chapter</p> */}
                 <p className="bg-white rounded-full w-16 h-16 flex items-center justify-center text-[32px] sm:text-[36px] md:text-[40px] lg:text-[42px] font-bold text-[#cf2030]">
                   3
                 </p>
@@ -321,54 +195,6 @@ export default function Home() {
                 </p>
               </div>
             </div>
-
-            {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-5">
-              <div className="text-center flex flex-col items-center">
-                <p className="bg-white rounded-full w-16 h-16 flex items-center justify-center text-[32px] sm:text-[36px] md:text-[40px] lg:text-[42px] font-bold text-[#cf2030]">
-                  1
-                </p>
-                <h2 className="text-[#f2f2f2] text-lg sm:text-xl md:text-2xl font-bold leading-normal my-4">
-                  Visit a BNI chapter
-                </h2>
-                <p className="text-[#f2f2f2] text-center text-sm sm:text-base md:text-lg font-medium leading-normal max-w-[275px] mx-auto">
-                  and experience the power of the BNI network
-                </p>
-              </div>
-
-              <div className="text-center flex flex-col items-center">
-                <p className="bg-white rounded-full w-16 h-16 flex items-center justify-center text-[32px] sm:text-[36px] md:text-[40px] lg:text-[42px] font-bold text-[#cf2030]">
-                  2
-                </p>
-                <h2 className="text-[#f2f2f2] text-lg sm:text-xl md:text-2xl font-bold leading-normal my-4">
-                  Meet the Members
-                </h2>
-                <p className="text-[#f2f2f2] text-center text-sm sm:text-base md:text-lg font-medium leading-normal max-w-[275px] mx-auto">
-                  and learn how they can help you grow your business
-                </p>
-              </div>
-
-              <div className="text-center flex flex-col items-center">
-                <p className="bg-white rounded-full w-16 h-16 flex items-center justify-center text-[32px] sm:text-[36px] md:text-[40px] lg:text-[42px] font-bold text-[#cf2030]">
-                  3
-                </p>
-                <h2 className="text-[#f2f2f2] text-lg sm:text-xl md:text-2xl font-bold leading-normal my-4">
-                  Apply
-                </h2>
-                <p className="text-[#f2f2f2] text-center text-sm sm:text-base md:text-lg font-medium leading-normal max-w-[275px] mx-auto">
-                  to become a Member of a BNI Chapter
-                </p>
-              </div>
-            </div> */}
-
-            {/* <div className="text-center mt-10">
-              <button className="getbtn">Get Invited</button>
-            </div> */}
-
-            {/* <div className="text-center mt-10">
-              <button className="getbtn uppercase text-[#cf2030] cursor-pointer bg-white rounded-[25px] px-14 py-2.5 text-lg font-bold">
-                Get Invited
-              </button>
-            </div> */}
 
             <div className="text-center mt-10">
               <button
@@ -394,8 +220,6 @@ export default function Home() {
           </p>
         </div>
       </div>
-
-      {/* <Stepform /> */}
     </div>
   );
 }
