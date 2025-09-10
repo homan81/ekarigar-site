@@ -1037,7 +1037,7 @@ export default function Stepform() {
                           The Tenant shall not make any alterations to the
                           furniture, including but not limited to painting,
                           reupholstering, or disassembling, without the
-                          Landlord's written consent.
+                          Landlord&apos;s written consent.
                         </div>
                       </div>
                     </label>
@@ -1084,7 +1084,7 @@ export default function Stepform() {
                         </div>
                         <div className="w-full text-sm">
                           The Landlord may deduct reasonable cleaning and
-                          painting costs from the Tenant's security deposit if
+                          painting costs from the Tenant&apos;s security deposit if
                           the premises are not returned in a satisfactory
                           condition.
                         </div>
