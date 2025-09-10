@@ -136,7 +136,7 @@ export default function Home() {
         </div>
       </div>
 
-      <ScrollSlider />
+      {/* <ScrollSlider /> */}
 
       <div className="bnibgred">
         <div className="mx-auto max-w-7xl w-full pt-20">
