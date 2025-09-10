@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <div>
       <div className="mx-auto max-w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
-        <main>
+        {/* <main>
           <div className="video-button">
             <div>
               <video
@@ -19,11 +19,11 @@ export default function Home() {
                 className="w-full h-auto rounded-lg shadow-lg"
               />
             </div>
-            {/* <div className="GetInvit">
+            <div className="GetInvit">
               <button>Get Invited </button>
-            </div> */}
+            </div>
           </div>
-        </main>
+        </main> */}
 
         <div className="mb-10 px-4 sm:px-6 lg:px-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-8">
@@ -136,7 +136,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* <ScrollSlider /> */}
+      <ScrollSlider />
 
       <div className="bnibgred">
         <div className="mx-auto max-w-7xl w-full pt-20">
