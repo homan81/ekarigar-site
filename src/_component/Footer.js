@@ -76,7 +76,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="footer-main pt-10 pb-6">
+    <footer className="footer-main pt-6 pb-6">
       <div className="mx-auto max-w-full sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-7xl">
         {/* Desktop Footer */}
         <div className="hidden md:grid grid-cols-2 gap-4 sm:gap-6 md:grid-cols-3 lg:grid-cols-6 py-6 lg:py-8">
@@ -252,9 +252,9 @@ const Footer = () => {
                 className="flex justify-between items-center border-b border-white pb-2 text-white font-semibold cursor-pointer"
                 onClick={() => setOpenMenu(openMenu === i ? null : i)}
               >
-                <span>{item.title}</span>
+                <span className="tittle" >{item.title}</span>
                 {item.subMenu.length > 0 && (
-                  <span className="text-lg">{openMenu === i ? "−" : "→"}</span>
+                  <span className="text-lg arrow">{openMenu === i ? "−" : "→"}</span>
                 )}
               </div>
 
