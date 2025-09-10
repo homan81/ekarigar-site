@@ -25,8 +25,8 @@
   right: 0;
   width: 100px;
   align-items: center;
-  -webkit-appearance: none; /* iOS fix */
-  border-radius: 9999px; /* keep your rounded button */
+  -webkit-appearance: none; /* iOS */
+  appearance: none;
 }
 
 .fto-btn:hover {
