@@ -25,6 +25,8 @@
   right: 0;
   width: 100px;
   align-items: center;
+  -webkit-appearance: none; /* iOS fix */
+  border-radius: 9999px; /* keep your rounded button */
 }
 
 .fto-btn:hover {
@@ -39,10 +41,10 @@
   font-weight: 700;
 }
 
-.allicon{
-  color: #C8C8C8;
+.allicon {
+  color: #c8c8c8;
 }
 
-.allicon:hover{
+.allicon:hover {
   color: #000000;
 }
